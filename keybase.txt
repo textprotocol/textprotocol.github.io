@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/textprotocol
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://textprotocol.org
+  * I am textprotocol (https://keybase.io/textprotocol) on keybase.
+  * I have a public key ASAxeGf_aYQAKArCdeZpr-kQDmpi7ft4MDi7ogX2kHS8jgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120317867ff698400280ac275e669afe9100e6a62edfb783038bba205f69074bc8e0a",
+      "host": "keybase.io",
+      "kid": "0120317867ff698400280ac275e669afe9100e6a62edfb783038bba205f69074bc8e0a",
+      "uid": "6051ed1cab24d1b362be511ec0107919",
+      "username": "textprotocol"
+    },
+    "merkle_root": {
+      "ctime": 1615217634,
+      "hash": "0910ffeca41b17abd3673c511cf13a2e4eb91a53b79801dbf81588ae569dcadcd76e334cc1f193104fe6cf90f5ef6572ba48c2b36550b4e41a89e73962005a52",
+      "hash_meta": "36c089522c6ad974fae08b09456268819c1765f11952a49aa2edf4e025acb70c",
+      "seqno": 19320261
+    },
+    "service": {
+      "entropy": "raV1S+rO2Cy+DLyymS6jyA76",
+      "hostname": "textprotocol.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.2"
+  },
+  "ctime": 1615217692,
+  "expire_in": 504576000,
+  "prev": "24906092076424962218f04270170ea7123da299d0e010d86f60fc8a2886070e",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgMXhn/2mEACgKwnXmaa/pEA5qYu37eDA4u6IF9pB0vI4Kp3BheWxvYWTESpcCDcQgJJBgkgdkJJYiGPBCcBcOpxI9opnQ4BDYb2D8iiiGBw7EIPylpCFJH1acaj/g3+Jrj5g5TS6o+lmx3lTHFUwv6rYAAgHCo3NpZ8RA8s4exXwGb1tkQMinAnUVR5b/OHyAct+tCCtusmzJtL32it/aOvM6WJJoUKzEUj5XRxSwgV4rK4VcpclQqpe7AqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKW5IDCSCqvzZmDIRxYdQH4zDn42r9fC9YevxOdklfnoo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/textprotocol
+
+==================================================================
