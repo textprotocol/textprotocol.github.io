@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang='en'>
   <head>
-    <title>TEXT://PROTOCOL</title>
+    <title>TEXT://PROTOCOL ☎︎</title>
     <meta charset='UTF-8'>
     <meta name='author' content='🆃🆇🆃'>
     <meta name='description' content='TEXTPROTOCOL'>
@@ -18,17 +18,17 @@
     <meta property='og:site_name' content='textprotocol.org'>
     <meta property='og:title' content='TEXTPROTOCOL'>
     <meta property='og:type' content='website'>
-    <meta property='og:url' content='https://textprotocol.org/'>
-    <link rel='alternate' href='https://textprotocol.org/' hreflang='en'>
+    <meta property='og:url' content='https://textprotocol.org/contact'>
+    <link rel='alternate' href='https://textprotocol.org/contact' hreflang='en'>
     <link rel='apple-touch-icon' sizes='180x180' href='apple-touch-icon.png'>
     <link rel='author' href='https://textprotocol.org/contact'>
-    <link rel='canonical' href='https://textprotocol.org/'>
+    <link rel='canonical' href='https://textprotocol.org/contact'>
     <link rel='icon' type='image/png' sizes='16x16' href='favicon-16x16.png'>
     <link rel='icon' type='image/png' sizes='32x32' href='favicon-32x32.png'>
     <link rel='license' href='https://github.com/textprotocol/textprotocol.github.io/blob/main/LICENSE'>
     <link rel='manifest' href='site.webmanifest'>
-    <link rel='next' href='https://textprotocol.org/contact'>
-    <link rel='prev' href='https://textprotocol.org/contact'>
+    <link rel='next' href='https://textprotocol.org/'>
+    <link rel='prev' href='https://textprotocol.org/'>
     <script async defer data-domain='textprotocol.org' src='https://stats.textprotocol.org/js/index.js'></script>
     <script type="application/ld+json">
     {
@@ -90,9 +90,9 @@
     <div class='content'>
       <p>✂︎・・・・・・・・・・</p>
       <p>
-        <a href='https://textprotocol.org/contact' title='🆃🆇🆃 ☎︎'><img src='https://textprotocol.org/apple-touch-icon.png' alt='🆃🆇🆃 ☎︎' title='🆃🆇🆃 ☎︎' width='180' height='180'></a>
+        <a href='https://textprotocol.org/contact' title='🆃🆇🆃'><img src='https://textprotocol.org/apple-touch-icon.png' alt='🆃🆇🆃' title='🆃🆇🆃' width='180' height='180'></a>
       </p>
-      <h2>TEXT://PROTOCOL</h2>
+      <h2>TEXT://PROTOCOL ☎︎</h2>
       <p>✂︎・・・・・・・・・・</p>
     </div>
   </body>
