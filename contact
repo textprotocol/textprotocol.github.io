@@ -52,7 +52,7 @@
         "https://stackoverflow.com/users/15360392/textprotocol",
         "https://textprotocol.org",
         "https://twitter.com/textprotocol",
-        "https://websitecarbon.com/website/textprotocol-org/"
+        "https://websitecarbon.com/website/textprotocol-org"
       ]
     }
     </script>
@@ -103,7 +103,21 @@
       <p>✂︎・・・・・・・・・・</p>
       <p>
         <!-- ABOUT --><a href='https://about.me/textprotocol' rel='me' title='ABOUT'>ABOUT</a>&nbsp;textprotocol<br>
+        <!-- GITHUB --><a href='https://github.com/textprotocol' rel='me' title='GITHUB'>GITHUB</a>&nbsp;textprotocol<br>
+        <!-- GITLAB --><a href='https://gitlab.com/textprotocol' rel='me' title='GITLAB'>GITLAB</a>&nbsp;textprotocol<br>
+        <!-- GRAVATAR --><a href='https://gravatar.com/textprotocolorg' rel='me' title='GRAVATAR'>GRAVATAR</a>&nbsp;textprotocol<br>
+        <!-- HACKERNEWS --><a href='https://news.ycombinator.com/user?id=textprotocol' rel='me' title='HACKERNEWS'>HACKERNEWS</a>&nbsp;textprotocol<br>
+        <!-- KEYBASE --><a href='https://keybase.io/textprotocol' rel='me' title='KEYBASE'>KEYBASE</a>&nbsp;textprotocol<br>
+        <!-- NETLIFY --><a href='https://app.netlify.com/sites/textprotocol/deploys' rel='me' title='NETLIFY'>NETLIFY</a>&nbsp;textprotocol.org<br>
+        <!-- ORCID --><a href='https://orcid.org/0000-0001-7228-5680' rel='me' title='ORCID'>ORCID</a>&nbsp;№&nbsp;0000-0001-7228-5680<br>
+        <!-- PLAUSIBLE --><a href='https://plausible.io/textprotocol.org' title='PLAUSIBLE'>PLAUSIBLE</a>&nbsp;textprotocol.org<br>
+        <!-- REDDIT --><a href='https://reddit.com/user/textprotocol' rel='me' title='REDDIT'>REDDIT</a>&nbsp;textprotocol<br>
+        <!-- STACKOVERFLOW --><a href='https://stackoverflow.com/users/15360392/textprotocol' rel='me' title='STACKOVERFLOW'>STACKOVERFLOW</a>&nbsp;textprotocol<br>
+        <!-- TWITTER --><a href='https://twitter.com/textprotocol' rel='me' title='TWITTER'>TWITTER</a>&nbsp;textprotocol<br>
+        <!-- WEB --><a href='https://textprotocol.org' rel='me' title='TEXTPROTOCOL'>WEB</a>&nbsp;textprotocol<strong title='HEADQUARTERS'>&nbsp;ℹ︎&nbsp;</strong><br>
+        <!-- WEBSITECARBON --><a href='https://websitecarbon.com/website/textprotocol-org' title='WEBSITECARBON'>WEBSITECARBON</a>&nbsp;szwrc.co<br>
       </p>
+      <p>✂︎・・・・・・・・・・</p>
     </div>
   </body>
 </html>
