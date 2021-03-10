@@ -5,7 +5,7 @@
     <meta charset='UTF-8'>
     <meta name='author' content='🆃🆇🆃'>
     <meta name='description' content='TEXTPROTOCOL'>
-    <meta name='keywords' content='TEXT PROTOCOL'>
+    <meta name='keywords' content='PLAIN TEXT PROTOCOL ZEROCONF MULTIADDR IRI URI URN URL MIME'>
     <meta name='twitter:card' content='summary'>
     <meta name='twitter:description' content='TEXT://PROTOCOL'>
     <meta name='twitter:image' content='https://textprotocol.org/apple-touch-icon.png'>
@@ -96,7 +96,61 @@
       </p>
       <h2>TEXT://PROTOCOL</h2>
       <p>✂︎・・・・・・・・・・</p>
-      <!-- PGP --><a href='https://keybase.io/textprotocol/pgp_keys.asc' rel='pgpkey authn' title='PGP'>PGP</a>&nbsp;<span title='2AE64C12077979D1'>2AE6&nbsp;4C12&nbsp;0779&nbsp;79D1</span><strong title='PUBLIC KEY 64-BIT FINGERPRINT'>&nbsp;ℹ︎&nbsp;</strong><br>
+      <p>
+      <h3><a href='https://en.wikipedia.org/wiki/Zero-configuration_networking#DNS-SD' title='Zero-configuration networking'>DNS SERVICE DISCOVERY</a></h3>
+      <p>
+        <samp><a href='https://multiformats.io/multiaddr/' title='TCP self-describing network multiaddr'>/dns/textprotocol.org/tcp/</a><a href='https://en.wikipedia.org/wiki/Port_(computer_networking)' title='Port number'>1961</a></samp>&nbsp;<sup><code><a href='#01' title='Mercury'>01</a></code></sup><br>
+        <samp><a href='https://multiformats.io/multiaddr/' title='TLS self-describing network multiaddr'>/dns/textprotocol.org/tcp/1965/</a><a href='https://en.wikipedia.org/wiki/Transport_Layer_Security' title='Transport Layer Security'>tls</a></samp>&nbsp;<sup><code><a href='#02' title='Gemini'>02</a></code></sup><br>
+        <samp><a href='https://multiformats.io/multiaddr/' title='QUIC self-describing network multiaddr'>/dns/textprotocol.org/udp/1968/</a><a href='https://en.wikipedia.org/wiki/QUIC' title='QUIC'>quic</a></samp>&nbsp;<sup><code><a href='#03' title='Apollo'>03</a></code></sup><br>
+      </p>
+      <p>✂︎・・・・・・・・・・</p>
+      <h3><a href='https://en.wikipedia.org/wiki/Request–response' title='REQUEST-RESPONSE'>REQUEST-RESPONSE</a>&nbsp;<sup><code><a href='#04' title='REQUEST-RESPONSE'>04</a></code></sup></h3>
+      <p>
+        <samp><a href='https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml' title='Uniform Resource Identifier (URI) Schemes'>text</a>://<a href='https://en.wikipedia.org/wiki/Hostname' title='Hostname'>textprotocol.org</a>/<a href='https://en.wikipedia.org/wiki/Newline' title='CRLF'>⏎</a></samp>&nbsp;<sup><code><a href='#05' title='REQUEST LINE'>05</a></code></sup><br>
+        ↓<br>
+        <samp>20 <a href='https://www.iana.org/assignments/media-types/media-types.xhtml' title='Media Types'>text/plain</a>;<a href='https://en.wikipedia.org/wiki/Character_encoding' title='Character encoding'>charset</a>=<a href='https://www.iana.org/assignments/character-sets/character-sets.xhtml' title='Character Sets'>utf-8</a>;<a href='https://en.wikipedia.org/wiki/Newline' title='CRLF'>⏎</a></samp><br>
+        <samp><a href='https://en.wikipedia.org/wiki/Plain_text' title='Plain text'>hello text://protocol!</a><a href='https://en.wikipedia.org/wiki/Newline' title='EOL'>↩</a></samp><br>
+        <samp>=> <a href='https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml' title='Uniform Resource Identifier (URI) Schemes'>text</a>://<a href='https://en.wikipedia.org/wiki/Hostname' title='Hostname'>textprotocol.org</a>/<a href='https://en.wikipedia.org/wiki/Filename' title='Filename'>license.txt</a> <a href='https://www.iana.org/assignments/link-relations/link-relations.xhtml' title='Link Relations'>rel</a>=<a href='https://microformats.org/wiki/rel-license' title='Rel-License'>license</a> <a href='https://spdx.org/licenses/' title='SPDX License List'>CC0-1.0</a><a href='https://en.wikipedia.org/wiki/Newline' title='EOL'>↩</a></samp><br>
+        ↓<br>
+        <samp><a href='https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_termination' title='Connection termination'>&lt;end of connection&gt;</a></samp>
+      </p>
+      <p>✂︎・・・・・・・・・・</p>
+      <h3>RESPONSE CODE&nbsp;<sup><code><a href='#06' title='RESPONSE CODE'>06</a></code></sup></h3>
+      <p>
+        <samp>20 text/plain;charset=utf-8;<a href='https://en.wikipedia.org/wiki/Newline' title='CRLF'>⏎</a></samp> <sup><code><a href='#07' title='20 OK RESPONSE CODE'>07</a></code></sup><br>
+        <samp>30 text://textprotocol.org/<a href='https://en.wikipedia.org/wiki/Newline' title='CRLF'>⏎</a></samp> <sup><code><a href='#08' title='30 REDIRECT RESPONSE CODE'>08</a></code></sup><br>
+        <samp>40 ⚠︎<a href='https://en.wikipedia.org/wiki/Newline' title='CRLF'>⏎</a></samp> <sup><code><a href='#09' title='40 NOK RESPONSE CODE'>09</a></code></sup><br>
+      </p>
+      <p>✂︎・・・・・・・・・・</p>
+      <h3><a href='https://en.wikipedia.org/wiki/Media_type' title='Media type'>CONTENT TYPE</a></h3>
+      <p>
+        <samp><a href='https://www.iana.org/assignments/media-types/media-types.xhtml' title='Media Types'>text/plain</a>;<a href='https://en.wikipedia.org/wiki/Character_encoding' title='Character encoding'>charset</a>=<a href='https://www.iana.org/assignments/character-sets/character-sets.xhtml' title='Character Sets'>utf-8</a>;</samp><br>
+      </p>
+      <p>✂︎・・・・・・・・・・</p>
+      <h3>LINK LINE&nbsp;<sup><code><a href='#10' title='LINK LINE'>10</a></code></sup></h3>
+        <p>
+          <samp>=> <a href='https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml' title='Uniform Resource Identifier (URI) Schemes'>text</a>://<a href='https://en.wikipedia.org/wiki/Hostname' title='Hostname'>textprotocol.org</a>/<a href='https://en.wikipedia.org/wiki/Filename' title='Filename'>license.txt</a> <a href='https://www.iana.org/assignments/link-relations/link-relations.xhtml' title='Link Relations'>rel</a>=<a href='https://microformats.org/wiki/rel-license' title='Rel-License'>license</a> <a href='https://spdx.org/licenses/' title='SPDX License List'>CC0-1.0</a><a href='https://en.wikipedia.org/wiki/Newline' title='EOL'>↩</a></samp><br>
+        </p>
+      <p>✂︎・・・・・・・・・・</p>
+      <h3>LICENSE</h3>
+      <p>
+        <samp><a href='https://creativecommons.org/publicdomain/zero/1.0/' title='CC0 1.0 Universal (CC0 1.0) Public Domain Dedication'>CC0-1.0</a></samp>
+      </p>
+      <p>✂︎・・・・・・・・・・</p>
+      <p>
+        <sup><code id='01'>01</code></sup> <a href='https://en.wikipedia.org/wiki/1961' title='MCMLXI'>1961</a> <a href='https://en.wikipedia.org/wiki/Common_Era' title='Common Era'>CE</a> — <a href='https://en.wikipedia.org/wiki/Project_Mercury' title='Project Mercury'>Mercury</a>'s first crewed flight. <a href='https://en.wiktionary.org/wiki/%E2%98%BF' title='☿ MERCURY SYMBOL'>☿</a><br>
+        <sup><code id='02'>02</code></sup> <a href='https://en.wikipedia.org/wiki/1965' title='MCMLXV'>1965</a> <a href='https://en.wikipedia.org/wiki/Common_Era' title='Common Era'>CE</a> — <a href='https://en.wikipedia.org/wiki/Project_Gemini' title='Project Gemini'>Gemini</a>'s first crewed flight. <a href='https://en.wiktionary.org/wiki/%E2%99%8A%EF%B8%8E' title='♊︎ GEMINI SYMBOL'>♊︎</a><br>
+        <sup><code id='03'>03</code></sup> <a href='https://en.wikipedia.org/wiki/1968' title='MCMLXVIII'>1968</a> <a href='https://en.wikipedia.org/wiki/Common_Era' title='Common Era'>CE</a> — <a href='https://en.wikipedia.org/wiki/Apollo_program' title='Apollo program'>Apollo</a>'s first crewed flight.<br>
+        <sup><code id='04'>04</code></sup> <a href='https://en.wikipedia.org/wiki/UTF-8' title='Unicode Transformation Format – 8-bit'>UTF-8</a> <a href='https://en.wikipedia.org/wiki/Unicode_equivalence#Normal_forms' title='Normalization Form Canonical Composition'>NFC</a>. <a href='https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier' title='Internationalized Resource Identifier'>IRI</a>/<a href='https://en.wikipedia.org/wiki/Uniform_Resource_Identifier' title='Uniform Resource Identifier'>URI</a>/<a href='https://en.wikipedia.org/wiki/Uniform_Resource_Name' title='Uniform Resource Name'>URN</a>/<a href='https://en.wikipedia.org/wiki/URL' title='Uniform Resource Locator'>URL</a> — absolute, <a href='https://en.wikipedia.org/wiki/URI_normalization' title='URI normalization'>normalized</a>, fully qualified.<br>
+        <sup><code id='05'>05</code></sup> <a href='https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier' title='Internationalized Resource Identifier'>IRI</a> request line. <a href='https://en.wikipedia.org/wiki/Newline' title='CRLF'>CRLF</a> terminated. 1,048,576 bytes long.<br>
+        <sup><code id='06'>06</code></sup> Response code line. 1,048,576 bytes long. <a href='https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_termination' title='Connection termination'>End of connection</a> terminated.<br>
+        <sup><code id='07'>07</code></sup> 20 OK <a href='https://en.wikipedia.org/wiki/Media_type' title='Media type'>content-type</a> response — <a href='https://util.unicode.org/UnicodeJsps/character.jsp?a=0020' title='U+0020 SPACE'>space</a> separated. Followed by the content — <a href='https://en.wikipedia.org/wiki/Newline' title='CRLF'>CRLF</a> separated.<br>
+        <sup><code id='08'>08</code></sup> 30 <a href='https://en.wikipedia.org/wiki/URL_redirection' title='URL redirection'>REDIRECT</a> <a href='https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier' title='Internationalized Resource Identifier'>IRI</a> response — <a href='https://util.unicode.org/UnicodeJsps/character.jsp?a=0020' title='U+0020 SPACE'>space</a> separated.<br>
+        <sup><code id='09'>09</code></sup> 40 NOK response. Optional <a href='https://util.unicode.org/UnicodeJsps/character.jsp?a=0020' title='U+0020 SPACE'>space</a> separated description — <a href='https://en.wikipedia.org/wiki/Control_character' title='Control character'>control characters</a> <a href='https://en.wikipedia.org/wiki/Escape_sequences_in_C' title='Escape sequences in C'>escaped</a>.<br>
+        <sup><code id='10'>10</code></sup> Link line: '=>' ﹢ <a href='https://util.unicode.org/UnicodeJsps/character.jsp?a=0020' title='U+0020 SPACE'>space</a> ﹢ <a href='https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier' title='Internationalized Resource Identifier'>IRI</a>. Optional <a href='https://util.unicode.org/UnicodeJsps/character.jsp?a=0020' title='U+0020 SPACE'>space</a> separated description — <a href='https://en.wikipedia.org/wiki/Escape_sequences_in_C' title='Escape sequences in C'>escaped</a>. <a href='https://en.wikipedia.org/wiki/Newline' title='End of line'>EOL</a> terminated. 1,048,576 bytes long.<br>
+      </p>
+      <p>✂︎・・・・・・・・・・</p>
+      <a href='https://keybase.io/textprotocol/pgp_keys.asc' rel='pgpkey authn' title='Pretty Good Privacy'>PGP</a>&nbsp;<span title='2AE64C12077979D1'>2AE6&nbsp;4C12&nbsp;0779&nbsp;79D1</span><strong title='PUBLIC KEY 64-BIT FINGERPRINT'>&nbsp;ℹ︎&nbsp;</strong>
       <p>✂︎・・・・・・・・・・</p>
     </div>
   </body>
