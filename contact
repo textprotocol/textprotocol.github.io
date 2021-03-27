@@ -48,6 +48,7 @@
         "https://gitlab.com/textprotocol",
         "https://gravatar.com/textprotocolorg",
         "https://keybase.io/textprotocol",
+        "https://list.textprotocol.org/",
         "https://medium.com/@textprotocol",
         "https://news.ycombinator.com/user?id=textprotocol",
         "https://observablehq.com/@textprotocol",
@@ -117,6 +118,7 @@
         <!-- GRAVATAR --><a href='https://gravatar.com/textprotocolorg' rel='me' title='GRAVATAR'>GRAVATAR</a>&nbsp;textprotocol<br>
         <!-- HACKERNEWS --><a href='https://news.ycombinator.com/user?id=textprotocol' rel='me' title='HACKERNEWS'>HACKERNEWS</a>&nbsp;textprotocol<br>
         <!-- KEYBASE --><a href='https://keybase.io/textprotocol' rel='me' title='KEYBASE'>KEYBASE</a>&nbsp;textprotocol<br>
+        <!-- MAILINGLIST --><a href='https://list.textprotocol.org/' rel='me' title='MAILINGLIST'>MAILINGLIST</a>&nbsp;textprotocol.org<strong title='MAILINGLIST'>&nbsp;✉︎&nbsp;</strong><br>
         <!-- MEDIUM --><a href='https://medium.com/@textprotocol' rel='me' title='MEDIUM'>MEDIUM</a>&nbsp;textprotocol<br>
         <!-- NETLIFY --><a href='https://app.netlify.com/sites/textprotocol/deploys' rel='me' title='NETLIFY'>NETLIFY</a>&nbsp;textprotocol.org<br>
         <!-- OBSERVABLE --><a href='https://observablehq.com/@textprotocol' rel='me' title='OBSERVABLE'>OBSERVABLE</a>&nbsp;textprotocol<br>
